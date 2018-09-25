@@ -1,0 +1,34 @@
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.pageContent {
+    position: relative;
+}
+
+.pageContent.open {
+    margin-right: 25%;
+}
+
+.sidebarContent {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 0;
+}
+
+.sidebarContent.open {
+    width: 25%;
+}
+
+.sidebarContent .close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.sidebarContent .content {
+    padding-top: 20px;
+}
